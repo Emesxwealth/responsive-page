@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.top content, .first-content, .second-content {
+float: left;
+}
+main {
+  background-color: red;
+
+  padding: 190px; 
+  margin: auto;
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  height: 100hv;
+}
+
+.top-content {
+  
+  padding: 10px;
+}
+.first-content {
+  background-color: Blue;
+  margin: 5px;
+  padding: 1em;
+  font-size: 10px;
+  align-items: top;
+  flex-direction: 0;
+}
+
+.bothom {
+  background-color: green;
+  font-size: 10px;
+
+}
